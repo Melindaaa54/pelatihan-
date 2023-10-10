@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>materi6</title>
+</head>
+<body>
+    <h1>form</h1>
+    <!-- ada action dan methode= get & post-->
+    <form action="" method=" get" autocomplete="off">
+        <!--atribut yang sring digunakan name-->
+        <label for="nama_lengkap">nama_lengkap</label><br/>
+        <input  type="text" name="nama_lengkap " placeholder="silahkan masukkan..."
+        required
+        value="nama anda"
+        />
+        <br/>
+        <!--input radio-->
+        <br/>
+        <input type="radio" name="jenis_kelamin" required="cowo"/>
+        <label for="nama_lengkap">laki laki</label> 
+        <br/>
+        <input type="radio" name="jenis_kelamin" required="cewe"/>
+        <label for="nama_lengkap">perempuan</label>
+        <br/>
+
+        <!-- input checkbox-->
+        <input type="checkbox" value="bola" required="hobi"/>
+        <label for="hobi">bola</label><br/>
+
+        <input type="checkbox" value="badminton" required="hobi"/>
+        <label for="hobi">badminton</label><br/>
+
+        <input type="checkbox" value="makan" required="hobi"/>
+        <label for="hobi">makan</label><br/>
+
+        <input type="checkbox" value="mancing" required="hobi"/>
+        <label for="hobi">mancing</label><br/>
+
+        <!--input date-->
+        <label for="">date</label><br/>
+        <input type="date"/><br/>
+        <!--textarea-->
+        <label for="">text area</label><br/>
+        <textarea name="cerita" cols="30" rows="10"></textarea><br/>
+
+        <!--input select-->
+        <label for=" jurusan">input select</label><br/>
+        <select name="jurusan">
+        <option value="TI">Teknik informatika</option>
+        <option value="SI">sistem informasi</option>
+        </select><br/>
+        <!--input submit-->
+        <br/><br/>
+        <input type="submit" value="kirim"/>
+        <button type="submit">kirim</button>
+
+        
+        
+    </form>
+</body>
+</html>
